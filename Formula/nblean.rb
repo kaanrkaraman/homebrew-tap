@@ -6,6 +6,12 @@ class Nblean < Formula
   license "MIT"
   head "https://github.com/kaanrkaraman/nblean.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/kaanrkaraman/homebrew-tap/releases/download/nblean-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "7211a3639af30a96e19b6d0f12efed44840fce2c32288d34dfcfba7eeb5fab4f"
+    sha256 cellar: :any,                 x86_64_linux: "726f8e17b65b33d946a73b6cadfcbdf315281fb3d6bec7a59bb01a75ffbc6f29"
+  end
+
   depends_on "rust" => :build
 
   def install
