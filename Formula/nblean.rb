@@ -7,9 +7,9 @@ class Nblean < Formula
   head "https://github.com/kaanrkaraman/nblean.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/kaanrkaraman/homebrew-tap/releases/download/nblean-0.2.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "7211a3639af30a96e19b6d0f12efed44840fce2c32288d34dfcfba7eeb5fab4f"
-    sha256 cellar: :any,                 x86_64_linux: "726f8e17b65b33d946a73b6cadfcbdf315281fb3d6bec7a59bb01a75ffbc6f29"
+    root_url "https://github.com/kaanrkaraman/homebrew-tap/releases/download/nblean-0.2.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "46c80859b9cdb0be43d388f752a452bf9b900082d9a42fe29eb99551f24d0735"
+    sha256 cellar: :any,                 x86_64_linux: "8442786c97ebc19dc04c154318afab990a92a72f750e53b7e4cc72f00a09f5ae"
   end
 
   depends_on "rust" => :build
