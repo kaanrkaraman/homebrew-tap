@@ -1,8 +1,8 @@
 class Nblean < Formula
   desc "Token-lean Jupyter notebook access for coding agents"
   homepage "https://github.com/kaanrkaraman/nblean"
-  url "https://github.com/kaanrkaraman/nblean/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "12d56ec032679248040e1e9d918346270deb56b6d29d2b9831d2a99818def551"
+  url "https://github.com/kaanrkaraman/nblean/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "98eb0bad6a8a091ad9747cbb1f45c826ea9c143dda57d72692337c788b51514f"
   license "MIT"
   head "https://github.com/kaanrkaraman/nblean.git", branch: "main"
 
