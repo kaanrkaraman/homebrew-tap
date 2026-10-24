@@ -11,3 +11,17 @@ brew install kaanrkaraman/tap/nblean
 ```
 
 Or tap once with `brew tap kaanrkaraman/tap`, then `brew install nblean`.
+
+## Apps
+
+| Cask | Description |
+|---|---|
+| [zambak](https://github.com/kaanrkaraman/zambak) | Screenshot and annotation tool (macOS 26+) |
+| [damla](https://github.com/kaanrkaraman/damla) | Safari extension for downloading videos from social sites (macOS 14+) |
+
+```bash
+brew install --cask kaanrkaraman/tap/zambak
+brew install --cask kaanrkaraman/tap/damla
+```
+
+Both apps update themselves.
