@@ -1,6 +1,6 @@
 cask "zambak" do
-  version "0.5.1"
-  sha256 "0bb6d20555095219997ec7d7d14ba593ba001f0e6e62945131a6c56916f91174"
+  version "0.6.0"
+  sha256 "fc88d48e96dae92fae5b572f51d32ddcccaf940ed34f8aa97b936cbef3ac7f22"
 
   url "https://github.com/kaanrkaraman/zambak/releases/download/v#{version}/Zambak-#{version}.dmg"
   name "Zambak"
